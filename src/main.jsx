@@ -8,7 +8,7 @@ import "./main.css";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/argent-bank/">
       <Provider store={store}>
         <App />
       </Provider>
