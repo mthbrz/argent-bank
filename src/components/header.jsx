@@ -2,6 +2,7 @@ import '../main.css'
 import { Link, useNavigate } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux';
 import { logoutUser } from '../actions/user.action';
+import { argentBankLogo } from '../assets/argentBankLogo.webp'
 
 
 function Header () {
@@ -23,7 +24,7 @@ function Header () {
       <Link className="main-nav-logo" to="/">
         <img
           className="main-nav-logo-image"
-          src="/argentBankLogo.webp"  
+          src={argentBankLogo.webp}  
           alt="Argent Bank Logo"
         />
         <h1 className="sr-only">Argent Bank</h1>
