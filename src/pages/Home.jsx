@@ -8,7 +8,7 @@
       <section className="features">
         <h2 className="sr-only">Features</h2>
         <div className="feature-item">
-          <img src="../public/icon-chat.webp" alt="Chat Icon" className="feature-icon" />
+          <img src="/icon-chat.webp" alt="Chat Icon" className="feature-icon" />
           <h3 className="feature-item-title">You are our #1 priority</h3>
           <p>
             Need to talk to a representative? You can get in touch through our
@@ -17,7 +17,7 @@
         </div>
         <div className="feature-item">
           <img
-            src="../public/icon-money.webp"
+            src="/icon-money.webp"
             alt="Money Icon"
             className="feature-icon"
           />
@@ -28,7 +28,7 @@
         </div>
         <div className="feature-item">
           <img
-            src="../public/icon-security.webp"
+            src="/icon-security.webp"
             alt="Security Icon"
             className="feature-icon"
           />
